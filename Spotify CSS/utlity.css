@@ -1,0 +1,26 @@
+.invert{
+    filter: invert(1);
+}
+/* Define scrollbar colors */
+    :root {
+        --scrollbar-track-color: #2b2b2b; /* Track color */
+        --scrollbar-thumb-color: #4f4f4f; /* Thumb color */
+    }
+
+    /* Define scrollbar styles */
+    ::-webkit-scrollbar {
+        width: 10px; /* Width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--scrollbar-track-color); /* Track color */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-thumb-color); /* Thumb color */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: grey; /* Hover color for thumb */
+    }
